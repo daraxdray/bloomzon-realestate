@@ -1,0 +1,10 @@
+com/example/flutter_lottie/LottieViewFactory.java
+ com.example.flutter_lottie.LottieViewFactory
+com/example/flutter_lottie/FlutterLottiePlugin.java
+ com.example.flutter_lottie.FlutterLottiePlugin
+com/example/flutter_lottie/LottieView.java
+ com.example.flutter_lottie.LottieView
+ com.example.flutter_lottie.LottieView$1
+ com.example.flutter_lottie.LottieView$2
+com/example/flutter_lottie/BuildConfig.java
+ com.example.flutter_lottie.BuildConfig

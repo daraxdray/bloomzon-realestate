@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/simplifiedg/bloomzon_estate/BuildConfig.java
+ com.simplifiedg.bloomzon_estate.BuildConfig

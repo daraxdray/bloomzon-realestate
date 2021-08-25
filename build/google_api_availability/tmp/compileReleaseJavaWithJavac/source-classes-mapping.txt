@@ -1,0 +1,5 @@
+com/baseflow/googleapiavailability/BuildConfig.java
+ com.baseflow.googleapiavailability.BuildConfig
+com/baseflow/googleapiavailability/GoogleApiAvailabilityPlugin.java
+ com.baseflow.googleapiavailability.GoogleApiAvailabilityPlugin
+ com.baseflow.googleapiavailability.GoogleApiAvailabilityPlugin$GooglePlayServicesAvailability

@@ -1,0 +1,4 @@
+io/flutter/plugins/shared_preferences_web/SharedPreferencesWebPlugin.java
+ io.flutter.plugins.shared_preferences_web.SharedPreferencesWebPlugin
+io/flutter/plugins/shared_preferences_web/BuildConfig.java
+ io.flutter.plugins.shared_preferences_web.BuildConfig

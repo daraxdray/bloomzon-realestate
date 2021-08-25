@@ -1,0 +1,4 @@
+io/flutter/plugins/url_launcher_macos/BuildConfig.java
+ io.flutter.plugins.url_launcher_macos.BuildConfig
+io/flutter/plugins/url_launcher_macos/UrlLauncherMacosPlugin.java
+ io.flutter.plugins.url_launcher_macos.UrlLauncherMacosPlugin

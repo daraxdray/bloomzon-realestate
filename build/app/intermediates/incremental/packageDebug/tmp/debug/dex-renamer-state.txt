@@ -1,0 +1,4 @@
+#Sat Aug 21 16:32:26 WAT 2021
+base.0=/Users/macos/IdeaProjects/gohome-master/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

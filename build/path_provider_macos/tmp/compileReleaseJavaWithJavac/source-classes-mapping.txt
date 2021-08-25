@@ -1,0 +1,4 @@
+com/example/path_provider/PathProviderPlugin.java
+ com.example.path_provider.PathProviderPlugin
+com/example/path_provider/BuildConfig.java
+ com.example.path_provider.BuildConfig

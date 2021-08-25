@@ -1,0 +1,4 @@
+io/flutter/plugins/shared_preferences_macos/BuildConfig.java
+ io.flutter.plugins.shared_preferences_macos.BuildConfig
+io/flutter/plugins/shared_preferences_macos/SharedPreferencesMacosPlugin.java
+ io.flutter.plugins.shared_preferences_macos.SharedPreferencesMacosPlugin
