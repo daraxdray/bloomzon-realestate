@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.jeffcorp.bloomzon_estate"
-    android:versionCode="1"
+    android:versionCode="3"
     android:versionName="1.0.0" >
 
     <uses-sdk
@@ -39,7 +39,7 @@
             android:value="AIzaSyCNkIDBbocAcW3NMP-w_8R3U1Sp-GfX95M" />
 
         <activity
-            android:name="com.simplifiedg.bloomzon_estate.MainActivity"
+            android:name="com.jeffcorp.bloomzon_estate.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:hardwareAccelerated="true"
             android:launchMode="singleTop"

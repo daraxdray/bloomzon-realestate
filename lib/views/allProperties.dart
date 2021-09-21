@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 import 'package:quiver/async.dart';
 import 'package:async/async.dart';
-
+import 'package:bloomzon_estate/data/states.dart';
+import 'package:bloomzon_estate/data/countries.dart';
 import '../services/services.dart';
 import '../classes/property.dart';
 import '../components/propertyList.dart';
@@ -38,13 +39,25 @@ class _AllPropertiesState extends State<AllProperties> {
     });
   }
 
+  getStates(){
+    List st = stateList;
+    st = st.where((element)
+    {
+      return   element['id'] == 0 || element['country_id'] == int.parse(countryValue);
+    }).toList();
+    print(st);
+    return st.length > 1 ? st : [];
+
+  }
+
   final AsyncMemoizer _memoizer = AsyncMemoizer();
 
-  List<Property> properties = List();
-  List<Property> filteredProperties = List();
+  List<Property> properties = [];
+  List<Property> filteredProperties = [];
 
   String typeValue = "Any Property Type";
   String furnValue = "Furnished";
+  String countryValue = "0";
   String regionValue = "Any Region";
   String statusValue = "Any Status";
   String bedroomValue = "Bedrooms";
@@ -56,6 +69,9 @@ class _AllPropertiesState extends State<AllProperties> {
 
   bool isButtonDisabled;
   bool isInitFilter;
+  List countries; //Countries data
+  List states = [{'name':'Any Region'}]; //States data
+  int stateLoading;
 
   TextEditingController bathroomController = TextEditingController();
   TextEditingController bedroomController = TextEditingController();
@@ -274,6 +290,26 @@ class _AllPropertiesState extends State<AllProperties> {
                         "Filter Property type",
                         style: TextStyle(fontSize: 30),
                       ),
+                      // FutureBuilder(
+                      //   future: getCountries(),
+                      //   builder: (context,snapshot){
+                      //
+                      //     if(snapshot.hasData) {
+                      //       List gc = [{'id':"0",'name':'Any Country'}];
+                      //       gc.addAll(snapshot.data);
+                      //       return ;
+                      //     }
+                      //     else  {
+                      //       return Container(
+                      //         alignment: Alignment.center,
+                      //           height: 90,
+                      //           width:90,
+                      //           child: CircularProgressIndicator(
+                      //           backgroundColor: Color(0xffff0000),
+                      //     ));
+                      //     }
+                      //   }
+                      // ),
                       Container(
                         margin: EdgeInsets.all(10),
                         decoration: BoxDecoration(
@@ -287,6 +323,53 @@ class _AllPropertiesState extends State<AllProperties> {
                         ),
                         padding: EdgeInsets.all(5),
                         child: DropdownButton<String>(
+                          isExpanded: true,
+                          value: countryValue,
+                          icon: Icon(Icons.arrow_drop_down),
+                          iconSize: 24,
+                          elevation: 16,
+                          style: TextStyle(color: Colors.black),
+                          underline: Container(
+                            height: 0,
+                            color: Colors.black,
+                          ),
+                          onChanged: (String newValue) {
+
+                            setModelState(() {
+                              countryValue = newValue;
+
+                              List res = [{'id':"0", 'name': 'Any Region'}];
+                              res.addAll(getStates());
+
+                              if(res.length <= 1){
+                                stateLoading = 0;
+                              }else{
+                                states = res;
+                                stateLoading = 2;
+                              }
+                            });
+                          },
+                          items: countryList.map<DropdownMenuItem<String>>((dynamic value) {
+                            return DropdownMenuItem<String>(
+                              value: "${value['id']}",
+                              child: Text(value['name']),
+                            );
+                          }).toList(),
+                        ),
+                      ),
+                      Container(
+                        margin: EdgeInsets.all(10),
+                        decoration: BoxDecoration(
+                          border: Border.all(
+                            width: 1,
+                            color: Colors.black45,
+                          ),
+                          borderRadius: BorderRadius.all(
+                            Radius.circular(20),
+                          ),
+                        ),
+                        padding: EdgeInsets.all(5),
+                        child: stateLoading == 0? DropdownButton<String>(
                           isExpanded: true,
                           value: regionValue,
                           icon: Icon(Icons.arrow_drop_down),
@@ -302,53 +385,42 @@ class _AllPropertiesState extends State<AllProperties> {
                               regionValue = newValue;
                             });
                           },
-                          items: <String>[
-                            'Any Region',
-                            'Abia',
-                            'Abuja',
-                            'Adamawa',
-                            'Akwa Ibom',
-                            'Anambra',
-                            'Bauchi',
-                            'Bayelsa',
-                            'Benue',
-                            'Borno',
-                            'Cross River',
-                            'Delta',
-                            'Ebonyi',
-                            'Enugu',
-                            'Edo',
-                            'Ekiti',
-                            'Gombe',
-                            'Imo',
-                            'Jigawa',
-                            'Kaduna',
-                            'Kano',
-                            'Katsina',
-                            'Kebbi',
-                            'Kogi',
-                            'Kwara',
-                            'Lagos',
-                            'Nasarawa',
-                            'Niger',
-                            'Ogun',
-                            'Ondo',
-                            'Osun',
-                            'Oyo',
-                            'Plateau',
-                            'Rivers',
-                            'Sokoto',
-                            'Taraba',
-                            'Yobe',
-                            'Zamfara'
-                          ].map<DropdownMenuItem<String>>((String value) {
+                          items: states.map<DropdownMenuItem<String>>((dynamic value) {
                             return DropdownMenuItem<String>(
-                              value: value,
-                              child: Text(value),
+                              value: value['name'],
+                              child: Text(value['name']),
+                            );
+                          }).toList(),
+                        ) :
+                        stateLoading == 1? Container(
+                            alignment: Alignment.center,
+                            child: CircularProgressIndicator(
+                              backgroundColor: Color(0xffff0000),
+                            )) : DropdownButton<String>(
+                          isExpanded: true,
+                          value: regionValue,
+                          icon: Icon(Icons.arrow_drop_down),
+                          iconSize: 24,
+                          elevation: 16,
+                          style: TextStyle(color: Colors.black),
+                          underline: Container(
+                            height: 0,
+                            color: Colors.black,
+                          ),
+                          onChanged: (String newValue) {
+                            setModelState(() {
+                              regionValue = newValue;
+                            });
+                          },
+                          items: states.map<DropdownMenuItem<String>>((dynamic value) {
+                            return DropdownMenuItem<String>(
+                              value: "${value['name']}",
+                              child: Text(value['name']),
                             );
                           }).toList(),
                         ),
                       ),
+
                       Container(
                         margin: EdgeInsets.all(10),
                         decoration: BoxDecoration(
@@ -377,9 +449,14 @@ class _AllPropertiesState extends State<AllProperties> {
                               typeValue = newValue;
                             });
                           },
-                          items: <String>['Any Property Type','House', 'Offic'
-                              'e', 'Store', 'Land']
-                              .map<DropdownMenuItem<String>>((String value) {
+                          items: <String>[
+                            'Any Property Type',
+                            'House',
+                            'Offic'
+                                'e',
+                            'Store',
+                            'Land'
+                          ].map<DropdownMenuItem<String>>((String value) {
                             return DropdownMenuItem<String>(
                               value: value,
                               child: Text(value),
@@ -415,7 +492,7 @@ class _AllPropertiesState extends State<AllProperties> {
                               statusValue = newValue;
                             });
                           },
-                          items: <String>['Any Status','Sale', 'Rent']
+                          items: <String>['Any Status', 'Sale', 'Rent']
                               .map<DropdownMenuItem<String>>((String value) {
                             return DropdownMenuItem<String>(
                               value: value,

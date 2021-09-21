@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/macos/IdeaProjects/bloomzon_estate/build/multi_image_picker/intermediates/res/merged/release/interpolator/mtrl_fast_out_slow_in.xml",
+        "source": "/Users/macos/.gradle/caches/transforms-2/files-2.1/681c3ce54d96500119578613b1df8c22/material-1.0.0/res/interpolator/mtrl_fast_out_slow_in.xml"
+    },
+    {
+        "merged": "/Users/macos/IdeaProjects/bloomzon_estate/build/multi_image_picker/intermediates/res/merged/release/interpolator/mtrl_fast_out_linear_in.xml",
+        "source": "/Users/macos/.gradle/caches/transforms-2/files-2.1/681c3ce54d96500119578613b1df8c22/material-1.0.0/res/interpolator/mtrl_fast_out_linear_in.xml"
+    },
+    {
+        "merged": "/Users/macos/IdeaProjects/bloomzon_estate/build/multi_image_picker/intermediates/res/merged/release/interpolator/mtrl_linear.xml",
+        "source": "/Users/macos/.gradle/caches/transforms-2/files-2.1/681c3ce54d96500119578613b1df8c22/material-1.0.0/res/interpolator/mtrl_linear.xml"
+    },
+    {
+        "merged": "/Users/macos/IdeaProjects/bloomzon_estate/build/multi_image_picker/intermediates/res/merged/release/interpolator/mtrl_linear_out_slow_in.xml",
+        "source": "/Users/macos/.gradle/caches/transforms-2/files-2.1/681c3ce54d96500119578613b1df8c22/material-1.0.0/res/interpolator/mtrl_linear_out_slow_in.xml"
+    }
+]

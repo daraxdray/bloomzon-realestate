@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/macos/IdeaProjects/bloomzon_estate/build/location/intermediates/res/merged/release/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/macos/.gradle/caches/transforms-2/files-2.1/04ae931c113b6e227094124ccc8647bd/jetified-play-services-base-16.0.1/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/macos/IdeaProjects/bloomzon_estate/build/location/intermediates/res/merged/release/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/macos/.gradle/caches/transforms-2/files-2.1/04ae931c113b6e227094124ccc8647bd/jetified-play-services-base-16.0.1/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/macos/IdeaProjects/bloomzon_estate/build/location/intermediates/res/merged/release/color/common_google_signin_btn_tint.xml",
+        "source": "/Users/macos/.gradle/caches/transforms-2/files-2.1/04ae931c113b6e227094124ccc8647bd/jetified-play-services-base-16.0.1/res/color/common_google_signin_btn_tint.xml"
+    }
+]

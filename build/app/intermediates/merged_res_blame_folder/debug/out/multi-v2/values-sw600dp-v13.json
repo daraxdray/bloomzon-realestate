@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/macos/IdeaProjects/gohome-master/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "/Users/macos/IdeaProjects/bloomzon_estate/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
                     "source": "/Users/macos/.gradle/caches/transforms-2/files-2.1/681c3ce54d96500119578613b1df8c22/material-1.0.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",

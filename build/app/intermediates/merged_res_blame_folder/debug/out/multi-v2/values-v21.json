@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/macos/IdeaProjects/gohome-master/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
+            "outputFile": "/Users/macos/IdeaProjects/bloomzon_estate/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
             "map": [
                 {
                     "source": "/Users/macos/.gradle/caches/transforms-2/files-2.1/b7efb5d9af8131732f8dd581c8e297c0/jetified-permissions-3.8/res/values-v21/values-v21.xml",

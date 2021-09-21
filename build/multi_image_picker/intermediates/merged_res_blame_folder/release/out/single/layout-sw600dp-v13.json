@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/macos/IdeaProjects/bloomzon_estate/build/multi_image_picker/intermediates/res/merged/release/layout-sw600dp-v13/mtrl_layout_snackbar.xml",
+        "source": "/Users/macos/.gradle/caches/transforms-2/files-2.1/681c3ce54d96500119578613b1df8c22/material-1.0.0/res/layout-sw600dp-v13/mtrl_layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/macos/IdeaProjects/bloomzon_estate/build/multi_image_picker/intermediates/res/merged/release/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "source": "/Users/macos/.gradle/caches/transforms-2/files-2.1/681c3ce54d96500119578613b1df8c22/material-1.0.0/res/layout-sw600dp-v13/design_layout_snackbar.xml"
+    }
+]

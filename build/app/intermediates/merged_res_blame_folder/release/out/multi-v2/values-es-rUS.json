@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/macos/IdeaProjects/gohome-master/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-es-rUS/values-es-rUS.xml",
+            "outputFile": "/Users/macos/IdeaProjects/bloomzon_estate/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-es-rUS/values-es-rUS.xml",
             "map": [
                 {
                     "source": "/Users/macos/.gradle/caches/transforms-2/files-2.1/bf05982115a71c6caf2aa452ca1bffda/appcompat-1.0.0/res/values-es-rUS/values-es-rUS.xml",

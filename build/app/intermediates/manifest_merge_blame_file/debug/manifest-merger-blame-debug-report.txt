@@ -1,7 +1,7 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.jeffcorp.bloomzon_estate"
-4    android:versionCode="1"
+4    android:versionCode="8"
 5    android:versionName="1.0.0" >
 6
 7    <uses-sdk
@@ -12,30 +12,30 @@
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->/Users/macos/IdeaProjects/gohome-master/android/app/src/main/AndroidManifest.xml:4:5-66
-14-->/Users/macos/IdeaProjects/gohome-master/android/app/src/main/AndroidManifest.xml:4:22-64
+14-->/Users/macos/IdeaProjects/bloomzon_estate/android/app/src/main/AndroidManifest.xml:4:5-66
+14-->/Users/macos/IdeaProjects/bloomzon_estate/android/app/src/main/AndroidManifest.xml:4:22-64
 15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-15-->/Users/macos/IdeaProjects/gohome-master/android/app/src/main/AndroidManifest.xml:5:5-79
-15-->/Users/macos/IdeaProjects/gohome-master/android/app/src/main/AndroidManifest.xml:5:22-76
+15-->/Users/macos/IdeaProjects/bloomzon_estate/android/app/src/main/AndroidManifest.xml:5:5-79
+15-->/Users/macos/IdeaProjects/bloomzon_estate/android/app/src/main/AndroidManifest.xml:5:22-76
 16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-16-->/Users/macos/IdeaProjects/gohome-master/android/app/src/main/AndroidManifest.xml:6:5-81
-16-->/Users/macos/IdeaProjects/gohome-master/android/app/src/main/AndroidManifest.xml:6:22-78
+16-->/Users/macos/IdeaProjects/bloomzon_estate/android/app/src/main/AndroidManifest.xml:6:5-81
+16-->/Users/macos/IdeaProjects/bloomzon_estate/android/app/src/main/AndroidManifest.xml:6:22-78
 17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-17-->/Users/macos/IdeaProjects/gohome-master/android/app/src/main/AndroidManifest.xml:7:5-80
-17-->/Users/macos/IdeaProjects/gohome-master/android/app/src/main/AndroidManifest.xml:7:22-77
+17-->/Users/macos/IdeaProjects/bloomzon_estate/android/app/src/main/AndroidManifest.xml:7:5-80
+17-->/Users/macos/IdeaProjects/bloomzon_estate/android/app/src/main/AndroidManifest.xml:7:22-77
 18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Include required permissions for Google Maps API to run. -->
-18-->/Users/macos/IdeaProjects/gohome-master/android/app/src/main/AndroidManifest.xml:8:5-81
-18-->/Users/macos/IdeaProjects/gohome-master/android/app/src/main/AndroidManifest.xml:8:22-78
+18-->/Users/macos/IdeaProjects/bloomzon_estate/android/app/src/main/AndroidManifest.xml:8:5-81
+18-->/Users/macos/IdeaProjects/bloomzon_estate/android/app/src/main/AndroidManifest.xml:8:22-78
 19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-19-->[com.google.android.gms:play-services-maps:17.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/bbc55f0f9ee0cd02b4e2eb41cf83f37c/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
-19-->[com.google.android.gms:play-services-maps:17.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/bbc55f0f9ee0cd02b4e2eb41cf83f37c/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+19-->[com.google.android.gms:play-services-maps:17.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/313f7038bb17b551b1b7903ed9ffdc0a/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+19-->[com.google.android.gms:play-services-maps:17.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/313f7038bb17b551b1b7903ed9ffdc0a/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
 20
 21    <uses-feature
-21-->[com.google.android.gms:play-services-maps:17.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/bbc55f0f9ee0cd02b4e2eb41cf83f37c/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+21-->[com.google.android.gms:play-services-maps:17.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/313f7038bb17b551b1b7903ed9ffdc0a/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
 22        android:glEsVersion="0x00020000"
-22-->[com.google.android.gms:play-services-maps:17.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/bbc55f0f9ee0cd02b4e2eb41cf83f37c/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+22-->[com.google.android.gms:play-services-maps:17.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/313f7038bb17b551b1b7903ed9ffdc0a/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
 23        android:required="true" />
-23-->[com.google.android.gms:play-services-maps:17.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/bbc55f0f9ee0cd02b4e2eb41cf83f37c/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+23-->[com.google.android.gms:play-services-maps:17.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/313f7038bb17b551b1b7903ed9ffdc0a/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
 24    <!--
 25 io.flutter.app.FlutterApplication is an android.app.Application that
 26         calls FlutterMain.startInitialization(this); in its onCreate method.
@@ -44,56 +44,56 @@
 29         FlutterApplication and put your custom class here.
 30    -->
 31    <application
-31-->/Users/macos/IdeaProjects/gohome-master/android/app/src/main/AndroidManifest.xml:14:5-43:19
+31-->/Users/macos/IdeaProjects/bloomzon_estate/android/app/src/main/AndroidManifest.xml:14:5-43:19
 32        android:name="io.flutter.app.FlutterApplication"
-32-->/Users/macos/IdeaProjects/gohome-master/android/app/src/main/AndroidManifest.xml:15:9-57
+32-->/Users/macos/IdeaProjects/bloomzon_estate/android/app/src/main/AndroidManifest.xml:15:9-57
 33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-33-->[androidx.core:core:1.1.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/b72a67fbb224bd0c7d956b9c88a71b0f/core-1.1.0/AndroidManifest.xml:24:18-86
+33-->[androidx.core:core:1.1.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/de0c79d4e855bf17e5ed5db7790c1c64/core-1.1.0/AndroidManifest.xml:24:18-86
 34        android:debuggable="true"
 35        android:icon="@mipmap/ic_launcher"
-35-->/Users/macos/IdeaProjects/gohome-master/android/app/src/main/AndroidManifest.xml:17:9-43
+35-->/Users/macos/IdeaProjects/bloomzon_estate/android/app/src/main/AndroidManifest.xml:17:9-43
 36        android:label="Bloomzon Real Estate" >
-36-->/Users/macos/IdeaProjects/gohome-master/android/app/src/main/AndroidManifest.xml:16:9-45
+36-->/Users/macos/IdeaProjects/bloomzon_estate/android/app/src/main/AndroidManifest.xml:16:9-45
 37        <meta-data
-37-->/Users/macos/IdeaProjects/gohome-master/android/app/src/main/AndroidManifest.xml:19:9-20:73
+37-->/Users/macos/IdeaProjects/bloomzon_estate/android/app/src/main/AndroidManifest.xml:19:9-20:73
 38            android:name="com.google.android.geo.API_KEY"
-38-->/Users/macos/IdeaProjects/gohome-master/android/app/src/main/AndroidManifest.xml:19:20-65
+38-->/Users/macos/IdeaProjects/bloomzon_estate/android/app/src/main/AndroidManifest.xml:19:20-65
 39            android:value="AIzaSyCNkIDBbocAcW3NMP-w_8R3U1Sp-GfX95M" />
-39-->/Users/macos/IdeaProjects/gohome-master/android/app/src/main/AndroidManifest.xml:20:16-71
+39-->/Users/macos/IdeaProjects/bloomzon_estate/android/app/src/main/AndroidManifest.xml:20:16-71
 40
 41        <activity
-41-->/Users/macos/IdeaProjects/gohome-master/android/app/src/main/AndroidManifest.xml:22:9-37:20
-42            android:name="com.simplifiedg.bloomzon_estate.MainActivity"
-42-->/Users/macos/IdeaProjects/gohome-master/android/app/src/main/AndroidManifest.xml:23:13-41
+41-->/Users/macos/IdeaProjects/bloomzon_estate/android/app/src/main/AndroidManifest.xml:22:9-37:20
+42            android:name="com.jeffcorp.bloomzon_estate.MainActivity"
+42-->/Users/macos/IdeaProjects/bloomzon_estate/android/app/src/main/AndroidManifest.xml:23:13-41
 43            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-43-->/Users/macos/IdeaProjects/gohome-master/android/app/src/main/AndroidManifest.xml:26:13-163
+43-->/Users/macos/IdeaProjects/bloomzon_estate/android/app/src/main/AndroidManifest.xml:26:13-163
 44            android:hardwareAccelerated="true"
-44-->/Users/macos/IdeaProjects/gohome-master/android/app/src/main/AndroidManifest.xml:27:13-47
+44-->/Users/macos/IdeaProjects/bloomzon_estate/android/app/src/main/AndroidManifest.xml:27:13-47
 45            android:launchMode="singleTop"
-45-->/Users/macos/IdeaProjects/gohome-master/android/app/src/main/AndroidManifest.xml:24:13-43
+45-->/Users/macos/IdeaProjects/bloomzon_estate/android/app/src/main/AndroidManifest.xml:24:13-43
 46            android:theme="@style/LaunchTheme"
-46-->/Users/macos/IdeaProjects/gohome-master/android/app/src/main/AndroidManifest.xml:25:13-47
+46-->/Users/macos/IdeaProjects/bloomzon_estate/android/app/src/main/AndroidManifest.xml:25:13-47
 47            android:windowSoftInputMode="adjustResize" >
-47-->/Users/macos/IdeaProjects/gohome-master/android/app/src/main/AndroidManifest.xml:28:13-55
+47-->/Users/macos/IdeaProjects/bloomzon_estate/android/app/src/main/AndroidManifest.xml:28:13-55
 48            <intent-filter>
-48-->/Users/macos/IdeaProjects/gohome-master/android/app/src/main/AndroidManifest.xml:29:13-32:29
+48-->/Users/macos/IdeaProjects/bloomzon_estate/android/app/src/main/AndroidManifest.xml:29:13-32:29
 49                <action android:name="android.intent.action.MAIN" />
-49-->/Users/macos/IdeaProjects/gohome-master/android/app/src/main/AndroidManifest.xml:30:17-68
-49-->/Users/macos/IdeaProjects/gohome-master/android/app/src/main/AndroidManifest.xml:30:25-66
+49-->/Users/macos/IdeaProjects/bloomzon_estate/android/app/src/main/AndroidManifest.xml:30:17-68
+49-->/Users/macos/IdeaProjects/bloomzon_estate/android/app/src/main/AndroidManifest.xml:30:25-66
 50
 51                <category android:name="android.intent.category.LAUNCHER" />
-51-->/Users/macos/IdeaProjects/gohome-master/android/app/src/main/AndroidManifest.xml:31:17-76
-51-->/Users/macos/IdeaProjects/gohome-master/android/app/src/main/AndroidManifest.xml:31:27-74
+51-->/Users/macos/IdeaProjects/bloomzon_estate/android/app/src/main/AndroidManifest.xml:31:17-76
+51-->/Users/macos/IdeaProjects/bloomzon_estate/android/app/src/main/AndroidManifest.xml:31:27-74
 52            </intent-filter>
 53            <intent-filter>
-53-->/Users/macos/IdeaProjects/gohome-master/android/app/src/main/AndroidManifest.xml:33:13-36:29
+53-->/Users/macos/IdeaProjects/bloomzon_estate/android/app/src/main/AndroidManifest.xml:33:13-36:29
 54                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
-54-->/Users/macos/IdeaProjects/gohome-master/android/app/src/main/AndroidManifest.xml:34:17-69
-54-->/Users/macos/IdeaProjects/gohome-master/android/app/src/main/AndroidManifest.xml:34:25-66
+54-->/Users/macos/IdeaProjects/bloomzon_estate/android/app/src/main/AndroidManifest.xml:34:17-69
+54-->/Users/macos/IdeaProjects/bloomzon_estate/android/app/src/main/AndroidManifest.xml:34:25-66
 55
 56                <category android:name="android.intent.category.DEFAULT" />
-56-->/Users/macos/IdeaProjects/gohome-master/android/app/src/main/AndroidManifest.xml:35:17-76
-56-->/Users/macos/IdeaProjects/gohome-master/android/app/src/main/AndroidManifest.xml:35:27-73
+56-->/Users/macos/IdeaProjects/bloomzon_estate/android/app/src/main/AndroidManifest.xml:35:17-76
+56-->/Users/macos/IdeaProjects/bloomzon_estate/android/app/src/main/AndroidManifest.xml:35:27-73
 57            </intent-filter>
 58        </activity>
 59        <!--
@@ -101,105 +101,105 @@
 61             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
 62        -->
 63        <meta-data
-63-->/Users/macos/IdeaProjects/gohome-master/android/app/src/main/AndroidManifest.xml:40:9-42:33
+63-->/Users/macos/IdeaProjects/bloomzon_estate/android/app/src/main/AndroidManifest.xml:40:9-42:33
 64            android:name="flutterEmbedding"
-64-->/Users/macos/IdeaProjects/gohome-master/android/app/src/main/AndroidManifest.xml:41:13-44
+64-->/Users/macos/IdeaProjects/bloomzon_estate/android/app/src/main/AndroidManifest.xml:41:13-44
 65            android:value="2" />
-65-->/Users/macos/IdeaProjects/gohome-master/android/app/src/main/AndroidManifest.xml:42:13-30
+65-->/Users/macos/IdeaProjects/bloomzon_estate/android/app/src/main/AndroidManifest.xml:42:13-30
 66
 67        <provider
-67-->[:image_picker] /Users/macos/IdeaProjects/gohome-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
+67-->[:image_picker] /Users/macos/IdeaProjects/bloomzon_estate/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
 68            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-68-->[:image_picker] /Users/macos/IdeaProjects/gohome-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
+68-->[:image_picker] /Users/macos/IdeaProjects/bloomzon_estate/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
 69            android:authorities="com.jeffcorp.bloomzon_estate.flutter.image_provider"
-69-->[:image_picker] /Users/macos/IdeaProjects/gohome-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
+69-->[:image_picker] /Users/macos/IdeaProjects/bloomzon_estate/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
 70            android:exported="false"
-70-->[:image_picker] /Users/macos/IdeaProjects/gohome-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+70-->[:image_picker] /Users/macos/IdeaProjects/bloomzon_estate/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
 71            android:grantUriPermissions="true" >
-71-->[:image_picker] /Users/macos/IdeaProjects/gohome-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
+71-->[:image_picker] /Users/macos/IdeaProjects/bloomzon_estate/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
 72            <meta-data
-72-->[:image_picker] /Users/macos/IdeaProjects/gohome-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+72-->[:image_picker] /Users/macos/IdeaProjects/bloomzon_estate/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
 73                android:name="android.support.FILE_PROVIDER_PATHS"
-73-->[:image_picker] /Users/macos/IdeaProjects/gohome-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+73-->[:image_picker] /Users/macos/IdeaProjects/bloomzon_estate/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
 74                android:resource="@xml/flutter_image_picker_file_paths" />
-74-->[:image_picker] /Users/macos/IdeaProjects/gohome-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+74-->[:image_picker] /Users/macos/IdeaProjects/bloomzon_estate/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
 75        </provider>
 76
 77        <activity
-77-->[:url_launcher] /Users/macos/IdeaProjects/gohome-master/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+77-->[:url_launcher] /Users/macos/IdeaProjects/bloomzon_estate/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
 78            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-78-->[:url_launcher] /Users/macos/IdeaProjects/gohome-master/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+78-->[:url_launcher] /Users/macos/IdeaProjects/bloomzon_estate/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
 79            android:exported="false"
-79-->[:url_launcher] /Users/macos/IdeaProjects/gohome-master/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+79-->[:url_launcher] /Users/macos/IdeaProjects/bloomzon_estate/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
 80            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-80-->[:url_launcher] /Users/macos/IdeaProjects/gohome-master/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+80-->[:url_launcher] /Users/macos/IdeaProjects/bloomzon_estate/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
 81
 82        <provider
-82-->[com.sangcomz:FishBun:0.11.2] /Users/macos/.gradle/caches/transforms-2/files-2.1/b096b6378d2279ae6420197eca88935b/jetified-FishBun-0.11.2/AndroidManifest.xml:12:9-20:20
+82-->[com.sangcomz:FishBun:0.11.2] /Users/macos/.gradle/caches/transforms-2/files-2.1/7e5ea9e136c8d3378e1bc5cea744c26e/jetified-FishBun-0.11.2/AndroidManifest.xml:12:9-20:20
 83            android:name="com.sangcomz.fishbun.FishBunFileProvider"
-83-->[com.sangcomz:FishBun:0.11.2] /Users/macos/.gradle/caches/transforms-2/files-2.1/b096b6378d2279ae6420197eca88935b/jetified-FishBun-0.11.2/AndroidManifest.xml:13:13-68
+83-->[com.sangcomz:FishBun:0.11.2] /Users/macos/.gradle/caches/transforms-2/files-2.1/7e5ea9e136c8d3378e1bc5cea744c26e/jetified-FishBun-0.11.2/AndroidManifest.xml:13:13-68
 84            android:authorities="com.jeffcorp.bloomzon_estate.fishbunfileprovider"
-84-->[com.sangcomz:FishBun:0.11.2] /Users/macos/.gradle/caches/transforms-2/files-2.1/b096b6378d2279ae6420197eca88935b/jetified-FishBun-0.11.2/AndroidManifest.xml:14:13-71
+84-->[com.sangcomz:FishBun:0.11.2] /Users/macos/.gradle/caches/transforms-2/files-2.1/7e5ea9e136c8d3378e1bc5cea744c26e/jetified-FishBun-0.11.2/AndroidManifest.xml:14:13-71
 85            android:exported="false"
-85-->[com.sangcomz:FishBun:0.11.2] /Users/macos/.gradle/caches/transforms-2/files-2.1/b096b6378d2279ae6420197eca88935b/jetified-FishBun-0.11.2/AndroidManifest.xml:15:13-37
+85-->[com.sangcomz:FishBun:0.11.2] /Users/macos/.gradle/caches/transforms-2/files-2.1/7e5ea9e136c8d3378e1bc5cea744c26e/jetified-FishBun-0.11.2/AndroidManifest.xml:15:13-37
 86            android:grantUriPermissions="true" >
-86-->[com.sangcomz:FishBun:0.11.2] /Users/macos/.gradle/caches/transforms-2/files-2.1/b096b6378d2279ae6420197eca88935b/jetified-FishBun-0.11.2/AndroidManifest.xml:16:13-47
+86-->[com.sangcomz:FishBun:0.11.2] /Users/macos/.gradle/caches/transforms-2/files-2.1/7e5ea9e136c8d3378e1bc5cea744c26e/jetified-FishBun-0.11.2/AndroidManifest.xml:16:13-47
 87            <meta-data
-87-->[:image_picker] /Users/macos/IdeaProjects/gohome-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+87-->[:image_picker] /Users/macos/IdeaProjects/bloomzon_estate/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
 88                android:name="android.support.FILE_PROVIDER_PATHS"
-88-->[:image_picker] /Users/macos/IdeaProjects/gohome-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+88-->[:image_picker] /Users/macos/IdeaProjects/bloomzon_estate/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
 89                android:resource="@xml/provider_paths" />
-89-->[:image_picker] /Users/macos/IdeaProjects/gohome-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+89-->[:image_picker] /Users/macos/IdeaProjects/bloomzon_estate/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
 90        </provider>
 91
 92        <activity
-92-->[com.sangcomz:FishBun:0.11.2] /Users/macos/.gradle/caches/transforms-2/files-2.1/b096b6378d2279ae6420197eca88935b/jetified-FishBun-0.11.2/AndroidManifest.xml:22:9-25:51
+92-->[com.sangcomz:FishBun:0.11.2] /Users/macos/.gradle/caches/transforms-2/files-2.1/7e5ea9e136c8d3378e1bc5cea744c26e/jetified-FishBun-0.11.2/AndroidManifest.xml:22:9-25:51
 93            android:name="com.sangcomz.fishbun.ui.album.AlbumActivity"
-93-->[com.sangcomz:FishBun:0.11.2] /Users/macos/.gradle/caches/transforms-2/files-2.1/b096b6378d2279ae6420197eca88935b/jetified-FishBun-0.11.2/AndroidManifest.xml:23:13-71
+93-->[com.sangcomz:FishBun:0.11.2] /Users/macos/.gradle/caches/transforms-2/files-2.1/7e5ea9e136c8d3378e1bc5cea744c26e/jetified-FishBun-0.11.2/AndroidManifest.xml:23:13-71
 94            android:label="@string/album"
-94-->[com.sangcomz:FishBun:0.11.2] /Users/macos/.gradle/caches/transforms-2/files-2.1/b096b6378d2279ae6420197eca88935b/jetified-FishBun-0.11.2/AndroidManifest.xml:24:13-42
+94-->[com.sangcomz:FishBun:0.11.2] /Users/macos/.gradle/caches/transforms-2/files-2.1/7e5ea9e136c8d3378e1bc5cea744c26e/jetified-FishBun-0.11.2/AndroidManifest.xml:24:13-42
 95            android:theme="@style/FishBunTheme" />
-95-->[com.sangcomz:FishBun:0.11.2] /Users/macos/.gradle/caches/transforms-2/files-2.1/b096b6378d2279ae6420197eca88935b/jetified-FishBun-0.11.2/AndroidManifest.xml:25:13-48
+95-->[com.sangcomz:FishBun:0.11.2] /Users/macos/.gradle/caches/transforms-2/files-2.1/7e5ea9e136c8d3378e1bc5cea744c26e/jetified-FishBun-0.11.2/AndroidManifest.xml:25:13-48
 96        <activity
-96-->[com.sangcomz:FishBun:0.11.2] /Users/macos/.gradle/caches/transforms-2/files-2.1/b096b6378d2279ae6420197eca88935b/jetified-FishBun-0.11.2/AndroidManifest.xml:26:9-28:51
+96-->[com.sangcomz:FishBun:0.11.2] /Users/macos/.gradle/caches/transforms-2/files-2.1/7e5ea9e136c8d3378e1bc5cea744c26e/jetified-FishBun-0.11.2/AndroidManifest.xml:26:9-28:51
 97            android:name="com.sangcomz.fishbun.ui.picker.PickerActivity"
-97-->[com.sangcomz:FishBun:0.11.2] /Users/macos/.gradle/caches/transforms-2/files-2.1/b096b6378d2279ae6420197eca88935b/jetified-FishBun-0.11.2/AndroidManifest.xml:27:13-73
+97-->[com.sangcomz:FishBun:0.11.2] /Users/macos/.gradle/caches/transforms-2/files-2.1/7e5ea9e136c8d3378e1bc5cea744c26e/jetified-FishBun-0.11.2/AndroidManifest.xml:27:13-73
 98            android:theme="@style/FishBunTheme" />
-98-->[com.sangcomz:FishBun:0.11.2] /Users/macos/.gradle/caches/transforms-2/files-2.1/b096b6378d2279ae6420197eca88935b/jetified-FishBun-0.11.2/AndroidManifest.xml:28:13-48
+98-->[com.sangcomz:FishBun:0.11.2] /Users/macos/.gradle/caches/transforms-2/files-2.1/7e5ea9e136c8d3378e1bc5cea744c26e/jetified-FishBun-0.11.2/AndroidManifest.xml:28:13-48
 99        <activity
-99-->[com.sangcomz:FishBun:0.11.2] /Users/macos/.gradle/caches/transforms-2/files-2.1/b096b6378d2279ae6420197eca88935b/jetified-FishBun-0.11.2/AndroidManifest.xml:29:9-31:54
+99-->[com.sangcomz:FishBun:0.11.2] /Users/macos/.gradle/caches/transforms-2/files-2.1/7e5ea9e136c8d3378e1bc5cea744c26e/jetified-FishBun-0.11.2/AndroidManifest.xml:29:9-31:54
 100            android:name="com.sangcomz.fishbun.ui.detail.DetailActivity"
-100-->[com.sangcomz:FishBun:0.11.2] /Users/macos/.gradle/caches/transforms-2/files-2.1/b096b6378d2279ae6420197eca88935b/jetified-FishBun-0.11.2/AndroidManifest.xml:30:13-73
+100-->[com.sangcomz:FishBun:0.11.2] /Users/macos/.gradle/caches/transforms-2/files-2.1/7e5ea9e136c8d3378e1bc5cea744c26e/jetified-FishBun-0.11.2/AndroidManifest.xml:30:13-73
 101            android:theme="@style/DetailViewTheme" />
-101-->[com.sangcomz:FishBun:0.11.2] /Users/macos/.gradle/caches/transforms-2/files-2.1/b096b6378d2279ae6420197eca88935b/jetified-FishBun-0.11.2/AndroidManifest.xml:31:13-51
+101-->[com.sangcomz:FishBun:0.11.2] /Users/macos/.gradle/caches/transforms-2/files-2.1/7e5ea9e136c8d3378e1bc5cea744c26e/jetified-FishBun-0.11.2/AndroidManifest.xml:31:13-51
 102        <activity
-102-->[com.nabinbhandari.android:permissions:3.8] /Users/macos/.gradle/caches/transforms-2/files-2.1/b7efb5d9af8131732f8dd581c8e297c0/jetified-permissions-3.8/AndroidManifest.xml:12:9-14:67
+102-->[com.nabinbhandari.android:permissions:3.8] /Users/macos/.gradle/caches/transforms-2/files-2.1/701ddc0d090ea567055e71c660065e24/jetified-permissions-3.8/AndroidManifest.xml:12:9-14:67
 103            android:name="com.nabinbhandari.android.permissions.PermissionsActivity"
-103-->[com.nabinbhandari.android:permissions:3.8] /Users/macos/.gradle/caches/transforms-2/files-2.1/b7efb5d9af8131732f8dd581c8e297c0/jetified-permissions-3.8/AndroidManifest.xml:13:13-85
+103-->[com.nabinbhandari.android:permissions:3.8] /Users/macos/.gradle/caches/transforms-2/files-2.1/701ddc0d090ea567055e71c660065e24/jetified-permissions-3.8/AndroidManifest.xml:13:13-85
 104            android:theme="@style/Permissions.TransparentTheme" /> <!-- Needs to be explicitly declared on P+ -->
-104-->[com.nabinbhandari.android:permissions:3.8] /Users/macos/.gradle/caches/transforms-2/files-2.1/b7efb5d9af8131732f8dd581c8e297c0/jetified-permissions-3.8/AndroidManifest.xml:14:13-64
+104-->[com.nabinbhandari.android:permissions:3.8] /Users/macos/.gradle/caches/transforms-2/files-2.1/701ddc0d090ea567055e71c660065e24/jetified-permissions-3.8/AndroidManifest.xml:14:13-64
 105        <uses-library
-105-->[com.google.android.gms:play-services-maps:17.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/bbc55f0f9ee0cd02b4e2eb41cf83f37c/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+105-->[com.google.android.gms:play-services-maps:17.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/313f7038bb17b551b1b7903ed9ffdc0a/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
 106            android:name="org.apache.http.legacy"
-106-->[com.google.android.gms:play-services-maps:17.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/bbc55f0f9ee0cd02b4e2eb41cf83f37c/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+106-->[com.google.android.gms:play-services-maps:17.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/313f7038bb17b551b1b7903ed9ffdc0a/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
 107            android:required="false" />
-107-->[com.google.android.gms:play-services-maps:17.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/bbc55f0f9ee0cd02b4e2eb41cf83f37c/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+107-->[com.google.android.gms:play-services-maps:17.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/313f7038bb17b551b1b7903ed9ffdc0a/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
 108
 109        <activity
-109-->[com.google.android.gms:play-services-base:17.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/56af031edb2d07eb3ecacfc6bf32c76d/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+109-->[com.google.android.gms:play-services-base:17.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/cb27e6b36f27b501c1922ef92a1d74ae/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
 110            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-110-->[com.google.android.gms:play-services-base:17.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/56af031edb2d07eb3ecacfc6bf32c76d/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+110-->[com.google.android.gms:play-services-base:17.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/cb27e6b36f27b501c1922ef92a1d74ae/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
 111            android:exported="false"
-111-->[com.google.android.gms:play-services-base:17.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/56af031edb2d07eb3ecacfc6bf32c76d/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+111-->[com.google.android.gms:play-services-base:17.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/cb27e6b36f27b501c1922ef92a1d74ae/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
 112            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-112-->[com.google.android.gms:play-services-base:17.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/56af031edb2d07eb3ecacfc6bf32c76d/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+112-->[com.google.android.gms:play-services-base:17.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/cb27e6b36f27b501c1922ef92a1d74ae/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
 113
 114        <meta-data
-114-->[com.google.android.gms:play-services-basement:17.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/63253121c457ecb5274611f03a63ede7/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+114-->[com.google.android.gms:play-services-basement:17.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/a315208a6ba5759c710d92ce275a2c5d/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
 115            android:name="com.google.android.gms.version"
-115-->[com.google.android.gms:play-services-basement:17.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/63253121c457ecb5274611f03a63ede7/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+115-->[com.google.android.gms:play-services-basement:17.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/a315208a6ba5759c710d92ce275a2c5d/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
 116            android:value="@integer/google_play_services_version" />
-116-->[com.google.android.gms:play-services-basement:17.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/63253121c457ecb5274611f03a63ede7/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+116-->[com.google.android.gms:play-services-basement:17.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/a315208a6ba5759c710d92ce275a2c5d/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
 117    </application>
 118
 119</manifest>

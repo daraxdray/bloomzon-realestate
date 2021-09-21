@@ -1,4 +1,4 @@
-# The proguard configuration file for the following section is /Users/macos/IdeaProjects/gohome-master/build/app/intermediates/proguard-files/proguard-android.txt-4.1.0
+# The proguard configuration file for the following section is /Users/macos/IdeaProjects/bloomzon_estate/build/app/intermediates/proguard-files/proguard-android.txt-4.1.0
 # This is a configuration file for ProGuard.
 # http://proguard.sourceforge.net/index.html#manual/usage.html
 #
@@ -110,7 +110,7 @@
 # These classes are duplicated between android.jar and core-lambda-stubs.jar.
 -dontnote java.lang.invoke.**
 
-# End of content from /Users/macos/IdeaProjects/gohome-master/build/app/intermediates/proguard-files/proguard-android.txt-4.1.0
+# End of content from /Users/macos/IdeaProjects/bloomzon_estate/build/app/intermediates/proguard-files/proguard-android.txt-4.1.0
 # The proguard configuration file for the following section is /Users/macos/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro
 # Build the ephemeral app in a module project.
 # Prevents: Warning: library class <plugin-package> depends on program class io.flutter.plugin.**
@@ -121,7 +121,7 @@
 -dontwarn android.**
 
 # End of content from /Users/macos/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro
-# The proguard configuration file for the following section is /Users/macos/IdeaProjects/gohome-master/build/app/intermediates/aapt_proguard_file/release/aapt_rules.txt
+# The proguard configuration file for the following section is /Users/macos/IdeaProjects/bloomzon_estate/build/app/intermediates/aapt_proguard_file/release/aapt_rules.txt
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
 -keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
 -keep class com.nabinbhandari.android.permissions.PermissionsActivity { <init>(); }
@@ -129,7 +129,7 @@
 -keep class com.sangcomz.fishbun.ui.album.AlbumActivity { <init>(); }
 -keep class com.sangcomz.fishbun.ui.detail.DetailActivity { <init>(); }
 -keep class com.sangcomz.fishbun.ui.picker.PickerActivity { <init>(); }
--keep class com.simplifiedg.bloomzon_estate.MainActivity { <init>(); }
+-keep class com.jeffcorp.bloomzon_estate.MainActivity { <init>(); }
 -keep class io.flutter.app.FlutterApplication { <init>(); }
 -keep class io.flutter.plugins.imagepicker.ImagePickerFileProvider { <init>(); }
 -keep class io.flutter.plugins.urllauncher.WebViewActivity { <init>(); }
@@ -206,10 +206,10 @@
 -keep class com.sangcomz.fishbun.util.TouchImageView { <init>(android.content.Context, android.util.AttributeSet); }
 
 
-# End of content from /Users/macos/IdeaProjects/gohome-master/build/app/intermediates/aapt_proguard_file/release/aapt_rules.txt
-# The proguard configuration file for the following section is /Users/macos/IdeaProjects/gohome-master/build/geolocator/intermediates/consumer_proguard_dir/release/lib0/proguard.txt
+# End of content from /Users/macos/IdeaProjects/bloomzon_estate/build/app/intermediates/aapt_proguard_file/release/aapt_rules.txt
+# The proguard configuration file for the following section is /Users/macos/IdeaProjects/bloomzon_estate/build/geolocator/intermediates/consumer_proguard_dir/release/lib0/proguard.txt
 -keep class com.baseflow.** { *; }
-# End of content from /Users/macos/IdeaProjects/gohome-master/build/geolocator/intermediates/consumer_proguard_dir/release/lib0/proguard.txt
+# End of content from /Users/macos/IdeaProjects/bloomzon_estate/build/geolocator/intermediates/consumer_proguard_dir/release/lib0/proguard.txt
 # The proguard configuration file for the following section is /Users/macos/.gradle/caches/transforms-2/files-2.1/b096b6378d2279ae6420197eca88935b/jetified-FishBun-0.11.2/proguard.txt
 # Add project specific ProGuard rules here.
 # By default, the flags in this file are appended to flags specified

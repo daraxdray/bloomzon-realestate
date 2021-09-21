@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/macos/IdeaProjects/gohome-master/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-te/values-te.xml",
+            "outputFile": "/Users/macos/IdeaProjects/bloomzon_estate/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-te/values-te.xml",
             "map": [
                 {
                     "source": "/Users/macos/.gradle/caches/transforms-2/files-2.1/63253121c457ecb5274611f03a63ede7/jetified-play-services-basement-17.0.0/res/values-te/values.xml",
