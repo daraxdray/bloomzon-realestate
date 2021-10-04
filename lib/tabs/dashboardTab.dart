@@ -822,22 +822,18 @@ class _DashboardTabState extends State<DashboardTab> {
                           onChanged: (String newValue) {
                                 res.clear();
                                 res.add({'id':"0", 'name': 'Any Region'});
+                                setState((){
+                                countryValue = "$newValue";
+                                });
                                 res.addAll(getStates());
-                                print(res);
-                            setModelState(() {
-                              // stateLoading = 1;
-                              regionValue = "Any Region";
-                              countryValue = "$newValue";
-                            //     log("da",error:res);
-                                if(res.length <= 1){
-                                  stateLoading = 0;
-                                }else{
-                                  // states.clear();
-                                  states = res;
-                                  stateLoading = 2;
-                                }
-                            });
-                          },
+                                  states.clear();
+                                // print(res);
+                                setModelState(() {
+                                  // stateLoading = 1;
+                                  regionValue = "Any Region";
+                                  //     log("da",error:res);
+                                  states.addAll(res);
+                                });},
                           items: countryList.map<DropdownMenuItem<String>>((dynamic value) {
                             return DropdownMenuItem<String>(
                               value: "${value['id']}",
@@ -858,34 +854,7 @@ class _DashboardTabState extends State<DashboardTab> {
                         ),
                       ),
                       padding: EdgeInsets.all(5),
-                      child: stateLoading == 0? DropdownButton<String>(
-                        isExpanded: true,
-                        value: "Any Region",
-                        icon: Icon(Icons.arrow_drop_down),
-                        iconSize: 24,
-                        elevation: 16,
-                        style: TextStyle(color: Colors.black),
-                        underline: Container(
-                          height: 0,
-                          color: Colors.black,
-                        ),
-                        onChanged: (String newValue) {
-                          setModelState(() {
-                            // regionValue = newValue;
-                          });
-                        },
-                        items: states.map<DropdownMenuItem<String>>((dynamic value) {
-                          return DropdownMenuItem<String>(
-                            value: 'Any Region',
-                            child: Text('Any Region'),
-                          );
-                        }).toList(),
-                      ) :
-                      stateLoading == 1? Container(
-                        alignment: Alignment.center,
-                        child: CircularProgressIndicator(
-                          backgroundColor: Color(0xffff0000),
-                        )) :
+                      child:
                       DropdownButton<String>(
                         isExpanded: true,
                         value: regionValue,

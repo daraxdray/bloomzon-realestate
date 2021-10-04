@@ -212,6 +212,7 @@ class _SaleHousesState extends State<SaleHouses> {
             padding: MediaQuery.of(context).viewInsets,
             child: StatefulBuilder(
               builder: (BuildContext context, StateSetter setModelState) {
+                List res = [];
                 return Container(
                   padding: EdgeInsets.all(10),
                   child: ListView(
@@ -264,19 +265,22 @@ class _SaleHousesState extends State<SaleHouses> {
                             color: Colors.black,
                           ),
                           onChanged: (String newValue) {
-
-                            setModelState(() {
-                              countryValue = newValue;
-                              List res = [{'id':"0", 'name': 'Any Region'}];
-                              res.addAll(getStates());
-
-                              if(res.length <= 1){
-                                stateLoading = 0;
-                              }else{
-                                states = res;
-                                stateLoading = 2;
-                              }
+                            res.clear();
+                            res.add({'id':"0", 'name': 'Any Region'});
+                            setState((){
+                              countryValue = "$newValue";
                             });
+                            res.addAll(getStates());
+                            states.clear();
+                            // print(res);
+                            setModelState(() {
+                              // stateLoading = 1;
+                              regionValue = "Any Region";
+                              //     log("da",error:res);
+                              states.addAll(res);
+                            });
+
+
                           },
                           items: countryList.map<DropdownMenuItem<String>>((dynamic value) {
                             return DropdownMenuItem<String>(
@@ -298,7 +302,8 @@ class _SaleHousesState extends State<SaleHouses> {
                           ),
                         ),
                         padding: EdgeInsets.all(5),
-                        child: stateLoading == 0? DropdownButton<String>(
+                        child:
+                        DropdownButton<String>(
                           isExpanded: true,
                           value: regionValue,
                           icon: Icon(Icons.arrow_drop_down),
@@ -311,33 +316,7 @@ class _SaleHousesState extends State<SaleHouses> {
                           ),
                           onChanged: (String newValue) {
                             setModelState(() {
-                              regionValue = newValue;
-                            });
-                          },
-                          items: states.map<DropdownMenuItem<String>>((dynamic value) {
-                            return DropdownMenuItem<String>(
-                              value: value['name'],
-                              child: Text(value['name']),
-                            );
-                          }).toList(),
-                        ) :
-                        stateLoading == 1? Container(
-                            alignment: Alignment.center,
-                            child: CircularProgressIndicator(
-                              backgroundColor: Color(0xffff0000),
-                            )) : DropdownButton<String>(
-                          isExpanded: true,
-                          value: regionValue,
-                          icon: Icon(Icons.arrow_drop_down),
-                          iconSize: 24,
-                          elevation: 16,
-                          style: TextStyle(color: Colors.black),
-                          underline: Container(
-                            height: 0,
-                            color: Colors.black,
-                          ),
-                          onChanged: (String newValue) {
-                            setModelState(() {
+                              print("NV $newValue");
                               regionValue = newValue;
                             });
                           },

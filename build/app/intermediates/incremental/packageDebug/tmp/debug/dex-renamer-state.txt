@@ -1,4 +1,4 @@
-#Tue Sep 21 03:24:41 WAT 2021
+#Mon Oct 04 10:23:47 WAT 2021
 base.0=/Users/macos/IdeaProjects/bloomzon_estate/build/app/intermediates/dex/debug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
